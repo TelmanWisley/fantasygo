@@ -2,7 +2,7 @@
   "scripts": {
     "start": "nodemon dist/server.js",
     "dev": "nodemon src/server.ts",
-    "build": "tsc -w src/server.ts",
+    "build": "tsc -p tsconfig.json",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
